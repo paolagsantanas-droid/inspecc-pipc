@@ -4,7 +4,7 @@ import json
 import re
 import tempfile
 from datetime import datetime # <--- AGREGA ESTA LÍNEA AQUÍ
-from google import genai
+import google.generativeai as genai
 import io
 from docx import Document
 # ==========================================
